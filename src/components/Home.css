@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.home {
+    background-color: #25294a;
+    color: rgb(211, 211, 211);
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+}
+
+.home-2 {
+    background-color: #2d325a;
+    padding: 4rem;
+    border-radius: 4rem;
+    margin: 4rem;
+}
+
+.user-nm {
+    width: 30px;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.user-name {
+    margin-top: .7rem;
+}
+
+.user-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.user-btn {
+    background: #4266d0;
+    border: 1px solid #4266d0;
+    color: rgb(226, 226, 226);
+    padding: .2rem 1rem;
+    border-radius: .7rem;
+    transition: .3s all ease;
+    font-weight: 500;
+    margin-left: 2rem;
+}
+
+.user-detail {
+    width: 306px;
+}
+
+.user-btn:hover {
+    background: #4f75e9;
+    color: white;
+}
+
+.users {
+    padding: 0 1rem;
+}
+
+.user-details-2 {
+    padding: 0 1rem;
+}
+
+.user-ft {
+    font-size: 4rem;
+    background-color: #25294a;
+    height: 110px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+}
+
+.user-ft-2 {
+    font-size: 4rem;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.user-bio {
+    height: 85px;
+    display: flex;
+    align-items: center;
+    width: 306px;
+    border: 2px solid #25294a;
+    border-radius: .5rem;
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+
+.name {
+    margin-bottom: 1rem;
+}
+
+.name-2 {
+    margin: 0;
+    margin-bottom: .3rem;
+    margin-left: .5rem;
+}
+
+.name-3 {
+    display: flex;
+    align-items: center;
+    width: 306px;
+    border: 2px solid #25294a;
+    border-radius: .5rem;
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+
+.job-title {
+    height: 63px;
+    display: flex;
+    align-items: center;
+    width: 306px;
+    border: 2px solid #25294a;
+    border-radius: .5rem;
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+
+
+@media screen and (max-width: 1011px) {
+    .home-2 {
+        background-color: #2d325a;
+        padding: 0rem;
+        border-radius: 0rem;
+        margin: 0rem;
+        min-height: 100vh;
+        min-width: 100vw;
+        padding-bottom: 2rem;
+    }
+
+    .user-details-2 {
+        order: 0;
+        margin-bottom: 2rem;
+        min-height: 100vh;
+        align-items: center;
+        display: flex;
+    }
+
+    .users {
+        order: 1;
+    }
+
+    .user-btn {
+        margin-left: .2rem;
+        padding: .2rem .9rem;
+    }
+
+    .user-img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin: 5px;
+    }
+}
